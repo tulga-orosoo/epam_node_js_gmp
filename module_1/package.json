@@ -1,0 +1,21 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "Task 1 of the Node JS  Global Mentoring Program, EPAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src_es6 -d lib"
+  },
+  "author": "Tulga Orosoo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
